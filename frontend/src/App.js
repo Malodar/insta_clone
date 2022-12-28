@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import './App.css';
 
 const BASE_URL = 'http://localhost:8000/'
@@ -26,7 +26,7 @@ function App() {
   
 
   return (
-    'hello'
+    posts
   );
 }
 
